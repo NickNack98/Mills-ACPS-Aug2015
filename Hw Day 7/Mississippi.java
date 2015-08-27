@@ -9,15 +9,25 @@ public class Mississippi
 {
    public static void main(String[] args){
        DrawM();
+       Space();
        DrawI();
+       Space();
        DrawS();
+       Space();
        DrawS();
+       Space();
        DrawI();
+       Space();
        DrawS();
+       Space();
        DrawS();
+       Space();
        DrawI();
+       Space();
        DrawP();
+       Space();
        DrawP();
+       Space();
        DrawI();
     }
     public static void DrawM() {
@@ -56,5 +66,9 @@ public class Mississippi
         System.out.println("P      ");
         System.out.println("P      ");
     }
+    public static void Space() {
+        System.out.println(" ");
+    }
 }
+
 
