@@ -10,14 +10,11 @@ public class Mississippi
    public static void main(String[] args){
        DrawM();
        DrawI();
-       DrawS();
-       DrawS();
+       DrawSs();
        DrawI();
-       DrawS();
-       DrawS();
+       DrawSs();
        DrawI();
-       DrawP();
-       DrawP();
+       DrawPp();
        DrawI();
     }
     public static void DrawM() {
@@ -40,7 +37,15 @@ public class Mississippi
         System.out.println("IIIII");
         System.out.println(" ");
     }
-    public static void DrawS() {
+    public static void DrawSs() {
+        System.out.println(" SSSSS ");
+        System.out.println("S     S");
+        System.out.println("S      ");
+        System.out.println(" SSSSS ");
+        System.out.println("      S");
+        System.out.println("S     S");
+        System.out.println(" SSSSS ");
+        System.out.println(" ");
         System.out.println(" SSSSS ");
         System.out.println("S     S");
         System.out.println("S      ");
@@ -50,7 +55,15 @@ public class Mississippi
         System.out.println(" SSSSS ");
         System.out.println(" ");
     }
-    public static void DrawP() {
+    public static void DrawPp() {
+        System.out.println("PPPPPP ");
+        System.out.println("P     P");
+        System.out.println("P     P");
+        System.out.println("PPPPPP ");
+        System.out.println("P      ");
+        System.out.println("P      ");
+        System.out.println("P      ");
+        System.out.println(" ");
         System.out.println("PPPPPP ");
         System.out.println("P     P");
         System.out.println("P     P");

@@ -2,151 +2,141 @@
 /**
  * Write a description of class Exercise here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Nicholas Chu) 
+ * @version (Version #2)
+ * @purpose (To sing the twelve days of christmas in Java)
  */
 public class Exercise
 {
     public static void main(String[] args){
-        D1();
-        Space();
-        D2();
-        Space();
-        D3();
-        Space();
-        D4();
-        Space();
-        D5();
-        Space();
-        D6();
-        Space();
-        D7();
-        Space();
-        D8();
-        Space();
-        D9();
-        Space();
-        D10();
-        Space();
-        D11();
-        Space();
-        D12();
+        dayOne();
+        dayTwo();
+        dayThree();
+        dayFour();
+        dayFive();
+        daySix();
+        daySeven();
+        dayEight();
+        dayNine();
+        dayTen();
+        dayEleven();
+        dayTwelve();
     }
-    public static void D1(){
+    public static void dayOne(){
         System.out.println("On the first day of Christmas,");
-        Love();
-        Pear();
+        love();
+        pear();
+        space();
     }
-    public static void D2(){
+    public static void dayTwo(){
         System.out.println("On the second day of Christmas,");
-        Love();
-        Tree();
+        love();
+        tree();
+        space();
     }
-    public static void D3(){
+    public static void dayThree(){
         System.out.println("On the third day of Christmas,");
-        Love();
-        Hen();
+        love();
+        hen();
+        space();
     }
-    public static void D4(){
+    public static void dayFour(){
         System.out.println("On the fourth day of Christmas,");
-        Love();
-        Birds();
-    }public static void D5(){
+        love();
+        birds();
+        space();
+    }public static void dayFive(){
         System.out.println("On the fifth day of Christmas,");
-        Love();
-        Rings();
-    }public static void D6(){
+        love();
+        rings();
+        space();
+    }public static void daySix(){
         System.out.println("On the sixth day of Christmas,");
-        Love();
-        Geese();
-    }public static void D7(){
+        love();
+        geese();
+        space();
+    }public static void daySeven(){
         System.out.println("On the seventh day of Christmas,");
-        Love();
-        Swans();
-    }public static void D8(){
+        love();
+        swans();
+        space();
+    }public static void dayEight(){
         System.out.println("On the eighth day of Christmas,");
-        Love();
-        Maids();
-    }public static void D9(){
+        love();
+        maids();
+        space();
+    }public static void dayNine(){
         System.out.println("On the ninth day of Christmas,");
-        Love();
-        Ladies();
-    }public static void D10(){
+        love();
+        ladies();
+        space();
+    }public static void dayTen(){
         System.out.println("On the tenth day of Christmas,");
-        Love();
-        Lords();
-    }public static void D11(){
+        love();
+        lords();
+        space();
+    }public static void dayEleven(){
         System.out.println("On the eleventh day of Christmas,");
-        Love();
-        Pipers();
-    }public static void D12(){
+        love();
+        pipers();
+        space();
+    }public static void dayTwelve(){
         System.out.println("On the twelfth day of Christmas,");
-        Love();
-        Drummers();
+        love();
+        drummers();
+        space();
     }
-    public static void Pear(){
-        
+    public static void pear(){
         System.out.println("a partridge in a pear tree.");
     }
-    public static void Tree(){
-        
+    public static void tree(){
         System.out.println("two turtle doves, and");;
-        Pear();
+        pear();
     }
-    public static void Hen(){
-        
+    public static void hen(){
         System.out.println("three French hens,");
-        Tree();
+        tree();
     }
-    public static void Birds(){
-        
+    public static void birds(){
         System.out.println("four calling birds");;
-        Hen();
+        hen();
     }
-    public static void Rings(){
-        
+    public static void rings(){
         System.out.println("Five golden rings,");;
-        Birds();
+        birds();
     }
-    public static void Geese(){
-        
+    public static void geese(){
         System.out.println("six geese a-laying,");;
-        Rings();
+        rings();
     }
-    public static void Swans(){
-        
+    public static void swans(){
         System.out.println("seven swans a-swimming,");;
-        Geese();
+        geese();
     }
-    public static void Maids(){
-        
+    public static void maids(){
         System.out.println("eight maids a-milking,");;
-        Swans();
+        swans();
     }
-    public static void Ladies(){
-        
+    public static void ladies(){
         System.out.println("nine ladies dancing,");;
-        Maids();
+        maids();
     }
-    public static void Lords(){
-        
+    public static void lords(){
         System.out.println("ten lords a-leaping,");;
-        Ladies();
+        ladies();
     }
-    public static void Pipers(){
-        
+    public static void pipers(){
         System.out.println("eleven pipers piping,");;
-        Lords();
+        lords();
     }
-    public static void Drummers(){
-        
+    public static void drummers(){
         System.out.println("Twelve drummers drumming");;
-        Pipers();
+        pipers();
     }
-    public static void Love(){
+    public static void love(){
         System.out.println("my true love gave to me");;
     }
-    public static void Space(){
+    public static void space(){
         System.out.println("\n");
     }
 }
